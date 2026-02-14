@@ -87,13 +87,6 @@ ipython_config.py
 #   intended to run in multiple environments; otherwise, check them in:
 # .python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
 # UV
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
@@ -116,13 +109,6 @@ ipython_config.py
 #pdm.toml
 .pdm-python
 .pdm-build/
-
-# pixi
-#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
-#pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
-#   in the .venv directory. It is recommended not to include this directory in version control.
-.pixi
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -207,13 +193,101 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# AI related files
-agent-logs/
-conversation-history/
-agent-cache/
-.ai/
+# =====================================================
+# AI ASSISTANTS / LLM TOOLS
+# =====================================================
+
+# -------------------------
+# Claude (Anthropic)
+# -------------------------
+.claude/
+.claude-cache/
+.claude.json
+.claude-config.json
+.claude-settings.json
+.anthropic/
+.anthropic.json
+
+# Claude project instruction files
 CLAUDE.md
+claude.md
+
+# -------------------------
+# GitHub Copilot
+# -------------------------
 .copilot/
-.copilot-chat/
-.copilot-instructions/
+.copilot-cache/
+.github/copilot/
+.vscode/copilot.json
+
+# Copilot instruction files
+COPILOT.md
+copilot.md
+copilot-instructions.md
+.copilot-instructions.md
+
+# -------------------------
+# Cursor (cursor.sh)
+# -------------------------
+.cursor/
+.cursor-cache/
+.cursor.json
+.cursor-config.json
+.cursor-settings.json
+*.cursor-workspace
+
+# -------------------------
+# Windsurf / Codeium
+# -------------------------
+.windsurf/
+.windsurf-cache/
+.windssurf/
+.codeium/
+.codeium-cache/
+.codeium.json
+
+# -------------------------
+# Agent instruction files
+# -------------------------
 AGENTS.md
+agents.md
+
+# =====================================================
+# MCP (Model Context Protocol)
+# =====================================================
+
+# MCP config directories
+.mcp/
+.mcp-cache/
+.mcp-logs/
+.mcp-state/
+
+# MCP config files
+mcp.json
+mcp.config.json
+mcp-settings.json
+mcp.local.json
+
+# MCP server definitions
+mcp-servers.json
+mcp-tools.json
+mcp-registry.json
+
+# MCP secrets / tokens
+mcp.secrets.json
+.mcp.secrets
+*.mcp.env
+
+# =====================================================
+# Generic AI / LLM
+# =====================================================
+.ai/
+.llm/
+.llm-cache/
+*.ai-config.json
+*.llm-config.json
+*.promptlog
+*.prompt-history
+
+# Keep example MCP files
+!.mcp.json.example
