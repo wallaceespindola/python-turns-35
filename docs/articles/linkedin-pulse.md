@@ -1,6 +1,6 @@
 # Python Turns 35 Today: What Three and a Half Decades of Survival Teach Us About Building Technology That Lasts
 
-![Python Turns 35](./images/featured-python-35.png)
+![python-35-years.png](../images/python-35-years.png)
 
 Thirty-five years ago today, on February 20, 1991, Guido van Rossum released the first version of Python to the world. What started as a hobby project during a Christmas holiday has become one of the most influential programming languages ever created. And if you've been in this industry long enough, you know that surviving 35 years isn't just impressive, it's borderline miraculous.
 

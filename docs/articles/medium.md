@@ -1,8 +1,8 @@
 # Python Turns 35 Today: The Language That Rewrote the Rules of Programming
 
-## From a Christmas hobby project to the world's most popular language -- how Python shaped modern software and why it still matters
+## From a Christmas hobby project to the world's most popular language, how Python shaped modern software and why it still matters
 
-![Python Turns 35](./images/featured-python-35.png)
+![Python Turns 35](../images/featured-python-35.png)
 
 **Author**: [Wallace Espindola](https://github.com/wallaceespindola/)
 **Published**: February 20, 2026
@@ -32,9 +32,9 @@
 
 Today, February 20, 2026, marks exactly 35 years since Guido van Rossum released the first version of Python to the world. That's 35 years of a language that started as a Christmas holiday side project and became the most widely used programming language on the planet.
 
-Think about that for a moment. Most software technologies don't survive five years. Frameworks come and go. Languages rise and fade. But Python didn't just survive -- it thrived. It evolved. It conquered entirely new domains that didn't even exist when it was born.
+Think about that for a moment. Most software technologies don't survive five years. Frameworks come and go. Languages rise and fade. But Python didn't just survive, it thrived. It evolved. It conquered entirely new domains that didn't even exist when it was born.
 
-When Guido sat down during the holiday break of 1989 to start writing an interpreter for a new scripting language, he wasn't trying to build the next big thing. He wanted a better tool. Something cleaner than C, more capable than shell scripting and more approachable than the languages available at the time. He named it after Monty Python's Flying Circus -- because he wanted programming to be fun.
+When Guido sat down during the holiday break of 1989 to start writing an interpreter for a new scripting language, he wasn't trying to build the next big thing. He wanted a better tool. Something cleaner than C, more capable than shell scripting and more approachable than the languages available at the time. He named it after Monty Python's Flying Circus, because he wanted programming to be fun.
 
 That decision to prioritize human readability over machine efficiency? It turned out to be one of the most consequential design choices in the history of computing.
 
@@ -50,7 +50,7 @@ From the very beginning, Python was different. While other languages of that era
 
 **What made it stand out:**
 
-- **Indentation-based syntax.** This was controversial then and it's still debated now. Instead of using curly braces to define code blocks, Python uses whitespace. Love it or hate it, it forces code to be visually clean. You can't write messy Python -- the language won't let you.
+- **Indentation-based syntax.** This was controversial then and it's still debated now. Instead of using curly braces to define code blocks, Python uses whitespace. Love it or hate it, it forces code to be visually clean. You can't write messy Python, the language won't let you.
 
 - **Dynamic typing.** You don't need to declare variable types. Just assign a value and Python figures out the rest. This felt like magic to developers coming from C or Pascal.
 
@@ -60,9 +60,9 @@ From the very beginning, Python was different. While other languages of that era
 
 During this decade, Python found its first natural home in academia and system administration. University professors loved it as a teaching language because students could focus on algorithms and logic instead of wrestling with syntax. System administrators loved it because it was a much better glue language than Bash for automating tasks across Linux and Unix systems.
 
-Python 1.0 landed in January 1994, bringing lambda, map, filter and reduce -- functional programming tools that gave the language surprising depth. By the time Python 2.0 arrived in October 2000, the language had list comprehensions, garbage collection and a growing community that genuinely enjoyed writing code in it.
+Python 1.0 landed in January 1994, bringing lambda, map, filter and reduce, functional programming tools that gave the language surprising depth. By the time Python 2.0 arrived in October 2000, the language had list comprehensions, garbage collection and a growing community that genuinely enjoyed writing code in it.
 
-This first decade wasn't about world domination. It was about building a solid foundation and a philosophy -- the Zen of Python -- that would guide every decision that came after.
+This first decade wasn't about world domination. It was about building a solid foundation and a philosophy, the Zen of Python, that would guide every decision that came after.
 
 ---
 
@@ -72,9 +72,9 @@ The 2000s changed everything for Python. The internet was exploding and everyone
 
 **Django arrived in 2005** and it changed the conversation entirely. Built by a team at the Lawrence Journal-World newspaper (yes, a newspaper), Django was a full-stack web framework that followed the "batteries included" philosophy Python was already known for. It came with an ORM, an admin panel, authentication, URL routing and template rendering all built in. You could go from zero to a functional web application in an afternoon.
 
-Django's tagline -- "The web framework for perfectionists with deadlines" -- captured exactly why Python was winning developer hearts. You could build things quickly without sacrificing code quality.
+Django's tagline, "The web framework for perfectionists with deadlines", captured exactly why Python was winning developer hearts. You could build things quickly without sacrificing code quality.
 
-**Flask appeared in 2010**, offering the opposite approach. Where Django gave you everything, Flask gave you almost nothing -- by design. It was a micro-framework that let you pick and choose your own components. Need a database? Pick your own ORM. Need templates? Choose your engine. This flexibility attracted developers who wanted more control over their stack.
+**Flask appeared in 2010**, offering the opposite approach. Where Django gave you everything, Flask gave you almost nothing, by design. It was a micro-framework that let you pick and choose your own components. Need a database? Pick your own ORM. Need templates? Choose your engine. This flexibility attracted developers who wanted more control over their stack.
 
 Between Django and Flask, Python had the web covered from both directions.
 
@@ -102,19 +102,19 @@ This is the decade that turned Python from a popular language into THE language 
 
 - **NumPy** provided fast numerical computing with arrays and matrices, serving as the foundation that everything else was built on.
 - **Pandas** gave data analysts a way to work with tabular data that felt intuitive and powerful. If you've ever loaded a CSV file with `pd.read_csv()`, you know the feeling.
-- **SciPy** added scientific computing tools -- optimization, signal processing, statistics and more.
+- **SciPy** added scientific computing tools, optimization, signal processing, statistics and more.
 - **Matplotlib** handled visualization, letting researchers create publication-quality plots with a few lines of code.
 - **Jupyter Notebooks** changed how people did computational work entirely. The idea of mixing code, output and narrative text in a single document was revolutionary. It made data analysis reproducible and shareable in a way that had never been possible before.
 
 Then machine learning and deep learning arrived and Python became the undisputed champion.
 
-**TensorFlow (2015)** from Google and **PyTorch (2016)** from Facebook gave researchers and engineers the tools to build neural networks with Python as the primary interface. The choice of Python wasn't accidental -- Google and Facebook both knew that if they wanted adoption, they needed to meet developers and researchers where they already were. And in data science, that meant Python.
+**TensorFlow (2015)** from Google and **PyTorch (2016)** from Facebook gave researchers and engineers the tools to build neural networks with Python as the primary interface. The choice of Python wasn't accidental, Google and Facebook both knew that if they wanted adoption, they needed to meet developers and researchers where they already were. And in data science, that meant Python.
 
 **Scikit-learn** made traditional machine learning approachable. You could train a classification model with three lines of code. Not three hundred. Three.
 
-What's remarkable about this era is how completely Python dominated. R, Julia, MATLAB -- they all had their strengths, but none could match Python's combination of general-purpose programming capability and specialized data science tools. A data scientist could clean data with Pandas, build a model with scikit-learn, deploy it with Flask and automate the pipeline with standard Python -- all in one language.
+What's remarkable about this era is how completely Python dominated. R, Julia, MATLAB, they all had their strengths, but none could match Python's combination of general-purpose programming capability and specialized data science tools. A data scientist could clean data with Pandas, build a model with scikit-learn, deploy it with Flask and automate the pipeline with standard Python, all in one language.
 
-Python also benefited from a crucial demographic shift. A new generation of professionals was entering the workforce -- data analysts, data scientists, machine learning engineers and quantitative researchers -- and they were learning Python as their first (and often only) programming language. They didn't come from computer science backgrounds. They came from statistics, physics, biology, economics and business. Python's gentle learning curve and readable syntax made it the perfect bridge between domain expertise and programming capability.
+Python also benefited from a crucial demographic shift. A new generation of professionals was entering the workforce, data analysts, data scientists, machine learning engineers and quantitative researchers, and they were learning Python as their first (and often only) programming language. They didn't come from computer science backgrounds. They came from statistics, physics, biology, economics and business. Python's gentle learning curve and readable syntax made it the perfect bridge between domain expertise and programming capability.
 
 By the end of this decade, knowing Python wasn't just a skill on a resume. It was practically a requirement for anyone working with data.
 
@@ -136,7 +136,7 @@ We're living in Python's fourth phase right now and it might be the most interes
 
 **Education solidified Python's dominance.** Python is now the most commonly taught first programming language at universities worldwide. It's also the language of choice for coding bootcamps, online courses and self-taught developers. This creates a self-reinforcing cycle: more people learn Python, more libraries get built in Python, more jobs require Python and more people learn Python.
 
-**The typing revolution matured.** Python's optional type hints, introduced in Python 3.5, have become increasingly sophisticated. Tools like mypy, Pyright and Pydantic brought type safety to a dynamically typed language without losing the flexibility that made Python appealing in the first place. You can write Python with full type annotations that rival statically typed languages for safety -- or you can skip types entirely for quick scripts. Your choice.
+**The typing revolution matured.** Python's optional type hints, introduced in Python 3.5, have become increasingly sophisticated. Tools like mypy, Pyright and Pydantic brought type safety to a dynamically typed language without losing the flexibility that made Python appealing in the first place. You can write Python with full type annotations that rival statically typed languages for safety, or you can skip types entirely for quick scripts. Your choice.
 
 In this current phase, Python isn't competing with other languages for specific use cases anymore. It's the default starting point. When someone has a new problem to solve, they ask "can I do this in Python?" and the answer is almost always yes.
 
@@ -146,7 +146,7 @@ In this current phase, Python isn't competing with other languages for specific 
 
 Here's a visual overview of Python's four phases and key milestones across 35 years:
 
-![Python Evolution Timeline](./images/python-phases-timeline.png)
+![Python Evolution Timeline](../images/python-phases-timeline.png)
 
 ```mermaid
 timeline
@@ -155,15 +155,15 @@ timeline
     section Phase 1: Academic & Scripting (1991-2000)
         1991 : Python 0.9.0 released on alt.sources
              : Indentation-based syntax introduced
-        1994 : Python 1.0 -- lambda, map, filter, reduce
-        1999 : Python 1.5.2 -- stable and widely adopted in academia
-        2000 : Python 2.0 -- list comprehensions, garbage collection
+        1994 : Python 1.0, lambda, map, filter, reduce
+        1999 : Python 1.5.2, stable and widely adopted in academia
+        2000 : Python 2.0, list comprehensions, garbage collection
 
     section Phase 2: Web Expansion (2000-2010)
-        2003 : Python 2.3 -- sets, enumerate, logging
-        2005 : Django released -- full-stack web framework
-        2008 : Python 3.0 -- the great backward-incompatible leap
-        2010 : Flask released -- micro-framework philosophy
+        2003 : Python 2.3, sets, enumerate, logging
+        2005 : Django released, full-stack web framework
+        2008 : Python 3.0, the great backward-incompatible leap
+        2010 : Flask released, micro-framework philosophy
              : pip becomes the standard package installer
 
     section Phase 3: Data Science Revolution (2010-2020)
@@ -172,15 +172,15 @@ timeline
         2015 : TensorFlow released by Google
         2016 : PyTorch released by Facebook
         2017 : Python becomes #1 on IEEE Spectrum
-        2019 : Python 3.8 -- walrus operator, positional-only params
+        2019 : Python 3.8, walrus operator, positional-only params
 
     section Phase 4: Platform & Cloud Era (2020-Present)
-        2020 : Python 3.9 -- dictionary merge operators
+        2020 : Python 3.9, dictionary merge operators
              : FastAPI reaches mainstream adoption
-        2022 : Python 3.11 -- major performance improvements
+        2022 : Python 3.11, major performance improvements
         2023 : AI/LLM orchestration frameworks explode
-        2024 : Python 3.13 -- experimental free-threaded mode
-        2026 : Python turns 35 -- most popular language worldwide
+        2024 : Python 3.13, experimental free-threaded mode
+        2026 : Python turns 35, most popular language worldwide
 ```
 
 ---
@@ -191,7 +191,7 @@ Most programming languages don't make it to their 10th birthday as relevant tool
 
 ### 1. Human-Centered Design from Day One
 
-Guido van Rossum made a deliberate choice to optimize for the developer's experience rather than the computer's performance. This philosophy is captured in the Zen of Python: "Readability counts," "Simple is better than complex," "There should be one -- and preferably only one -- obvious way to do it."
+Guido van Rossum made a deliberate choice to optimize for the developer's experience rather than the computer's performance. This philosophy is captured in the Zen of Python: "Readability counts," "Simple is better than complex," "There should be one, and preferably only one, obvious way to do it."
 
 This wasn't just philosophy. It was a practical design constraint that shaped every feature, every syntax decision and every library in the ecosystem. The result is a language where code reads almost like English and where a beginner can understand what a piece of code does just by looking at it.
 
@@ -203,7 +203,7 @@ For beginners, this removes a massive barrier. You don't need to understand pack
 
 ### 3. Ecosystem Network Effects
 
-Here's the thing about ecosystems: once they reach critical mass, they become nearly impossible to displace. Python crossed that threshold years ago. There are hundreds of thousands of packages on PyPI covering every imaginable use case. When a new technology appears -- whether it's blockchain, quantum computing, AR/VR or generative AI -- Python gets a library for it almost immediately.
+Here's the thing about ecosystems: once they reach critical mass, they become nearly impossible to displace. Python crossed that threshold years ago. There are hundreds of thousands of packages on PyPI covering every imaginable use case. When a new technology appears, whether it's blockchain, quantum computing, AR/VR or generative AI, Python gets a library for it almost immediately.
 
 This creates a flywheel: more users attract more library authors, who attract more users, who attract more companies, who fund more development. Breaking that cycle would require an alternative language to be not just better, but dramatically better across every dimension simultaneously.
 
@@ -215,7 +215,7 @@ Biologists, economists, journalists, artists and educators have all come to Pyth
 
 ### 5. Adaptability Without Identity Loss
 
-This is perhaps the most impressive quality. Python has reinvented itself for web development, system administration, data science, machine learning, cloud automation and AI orchestration -- without ever losing its core identity. It's still readable. It's still approachable. It's still fun to write.
+This is perhaps the most impressive quality. Python has reinvented itself for web development, system administration, data science, machine learning, cloud automation and AI orchestration, without ever losing its core identity. It's still readable. It's still approachable. It's still fun to write.
 
 Many languages that try to be everything to everyone end up being nothing to anyone. Python avoided that trap by keeping its core simple while letting the ecosystem handle specialization.
 
@@ -227,13 +227,13 @@ Let's be specific about where Python excels in 2026.
 
 **Developer Productivity.** Python developers consistently ship features faster than equivalent teams using more verbose languages. The gap between having an idea and having a working prototype is shorter in Python than in almost any alternative. When time-to-market matters, Python wins.
 
-**AI and Machine Learning Dominance.** This isn't even close. Python owns the AI space. Every major framework -- TensorFlow, PyTorch, JAX, Hugging Face Transformers, LangChain -- is Python-first. If you work in AI, you work in Python. Period.
+**AI and Machine Learning Dominance.** This isn't even close. Python owns the AI space. Every major framework, TensorFlow, PyTorch, JAX, Hugging Face Transformers, LangChain, is Python-first. If you work in AI, you work in Python. Period.
 
-**Massive Ecosystem.** With over 500,000 packages on PyPI, there's a library for practically everything. Web scraping, image processing, natural language processing, financial analysis, game development, robotics -- name a domain and Python has tools for it.
+**Massive Ecosystem.** With over 500,000 packages on PyPI, there's a library for practically everything. Web scraping, image processing, natural language processing, financial analysis, game development, robotics, name a domain and Python has tools for it.
 
 **Cross-Domain Versatility.** Very few languages let a single developer build a web API, train a machine learning model, automate cloud infrastructure and create data visualizations. Python does all of that and more. This makes Python developers incredibly versatile.
 
-**Prototyping Speed.** When you need to validate an idea quickly -- whether it's a proof of concept for a client, a quick data analysis or a one-off automation script -- Python gets you from zero to working code faster than anything else.
+**Prototyping Speed.** When you need to validate an idea quickly, whether it's a proof of concept for a client, a quick data analysis or a one-off automation script, Python gets you from zero to working code faster than anything else.
 
 **The Ideal Orchestration Language.** In modern architectures, you need a language that can talk to databases, call APIs, trigger cloud functions, process data and coordinate between services. Python's readability and rich library support make it the natural choice for orchestration and glue code. It connects the pieces of your system together in a way that's maintainable and understandable.
 
@@ -245,13 +245,13 @@ No honest assessment of a technology should skip its weaknesses. Python has real
 
 ### Performance: The Elephant in the Room
 
-Python is slow compared to compiled languages. Not a little slow -- often 10 to 100 times slower for CPU-intensive tasks. And memory consumption is high because everything in Python is an object, which means significant overhead for simple data types.
+Python is slow compared to compiled languages. Not a little slow, often 10 to 100 times slower for CPU-intensive tasks. And memory consumption is high because everything in Python is an object, which means significant overhead for simple data types.
 
-The good news: the core team is working on this aggressively. Python 3.11 brought measurable speed improvements. Python 3.13 introduced an experimental free-threaded mode. Projects like Cython, Mojo and PyPy offer faster alternatives while keeping Python-like syntax. For most applications, the bottleneck isn't Python's speed anyway -- it's I/O, network calls or database queries. But for compute-heavy workloads, this remains a real limitation.
+The good news: the core team is working on this aggressively. Python 3.11 brought measurable speed improvements. Python 3.13 introduced an experimental free-threaded mode. Projects like Cython, Mojo and PyPy offer faster alternatives while keeping Python-like syntax. For most applications, the bottleneck isn't Python's speed anyway, it's I/O, network calls or database queries. But for compute-heavy workloads, this remains a real limitation.
 
 ### Packaging Complexity
 
-Ask five Python developers how to manage dependencies and you'll get six different answers. pip, Poetry, Pipenv, conda, uv, PDM -- the ecosystem has too many competing tools and none of them has won definitively. Virtual environments are a source of confusion for beginners. Dependency resolution can be slow and frustrating. The new tool uv (from the Astral team) is making significant progress here, but the fragmentation itself is a problem.
+Ask five Python developers how to manage dependencies and you'll get six different answers. pip, Poetry, Pipenv, conda, uv, PDM, the ecosystem has too many competing tools and none of them has won definitively. Virtual environments are a source of confusion for beginners. Dependency resolution can be slow and frustrating. The new tool uv (from the Astral team) is making significant progress here, but the fragmentation itself is a problem.
 
 Compare this to Rust's Cargo or Go's built-in module system, where there's exactly one way to manage dependencies. Python's packaging story is improving, but it's still one of the language's weakest points.
 
@@ -273,11 +273,11 @@ Type hints and tools like mypy help significantly, but they're optional. In a la
 
 Java turned 30 in 2025 and it's still one of the most widely used languages in the world. Comparing Python at 35 with Java at 30 isn't about declaring a winner. It's about understanding two fundamentally different philosophies that have both proven remarkably successful.
 
-![Python vs Java Comparison](./images/python-vs-java-comparison.png)
+![Python vs Java Comparison](../images/python-vs-java-comparison.png)
 
 ### Java's Enduring Strengths
 
-**JVM portability.** "Write once, run anywhere" was Java's original promise and the JVM delivered on it. Java applications run on any platform with a JVM -- which is essentially every platform that matters. The JVM itself has become a platform, hosting languages like Kotlin, Scala and Clojure.
+**JVM portability.** "Write once, run anywhere" was Java's original promise and the JVM delivered on it. Java applications run on any platform with a JVM, which is essentially every platform that matters. The JVM itself has become a platform, hosting languages like Kotlin, Scala and Clojure.
 
 **Static typing and compile-time safety.** Java catches a whole class of errors before your code ever runs. In large enterprise systems where a runtime error can cost millions, this matters enormously.
 
@@ -285,7 +285,7 @@ Java turned 30 in 2025 and it's still one of the most widely used languages in t
 
 **Backward compatibility.** Java takes backward compatibility seriously. Code written 20 years ago still compiles and runs. For enterprises that maintain long-lived systems, this predictability is invaluable.
 
-**Corporate ecosystem.** Spring Boot, Jakarta EE, Hibernate, Maven, Gradle -- Java's enterprise tooling is deep, mature and battle-tested at scale. When you're building a banking system that processes millions of transactions daily, you want that maturity.
+**Corporate ecosystem.** Spring Boot, Jakarta EE, Hibernate, Maven, Gradle, Java's enterprise tooling is deep, mature and battle-tested at scale. When you're building a banking system that processes millions of transactions daily, you want that maturity.
 
 ### The Philosophical Comparison
 
@@ -315,9 +315,9 @@ Neither culture is better. They serve different needs and different contexts.
 
 Here's what experienced architects know: the best systems often use both languages, each where it excels.
 
-- **Java handles the transactional backbone.** Payment processing, order management, user authentication and core business logic -- the parts where reliability, type safety and performance are non-negotiable.
+- **Java handles the transactional backbone.** Payment processing, order management, user authentication and core business logic, the parts where reliability, type safety and performance are non-negotiable.
 
-- **Python handles the intelligence and automation layer.** Data analysis, machine learning inference, ETL pipelines, cloud automation and rapid prototyping -- the parts where development speed and ecosystem richness matter most.
+- **Python handles the intelligence and automation layer.** Data analysis, machine learning inference, ETL pipelines, cloud automation and rapid prototyping, the parts where development speed and ecosystem richness matter most.
 
 A typical modern enterprise might have Java microservices handling the core business operations, Python services running the recommendation engine and data pipelines and both languages sharing data through message queues and REST APIs.
 
@@ -325,7 +325,7 @@ A typical modern enterprise might have Java microservices handling the core busi
 
 If you want to think about it simply: **Python is the intelligence layer, Java is the infrastructure backbone.**
 
-Python excels at answering the question "what should we do?" -- analyzing data, running models, discovering patterns and making recommendations. Java excels at answering "how do we do it reliably at scale?" -- processing transactions, managing state, enforcing business rules and serving millions of concurrent requests.
+Python excels at answering the question "what should we do?", analyzing data, running models, discovering patterns and making recommendations. Java excels at answering "how do we do it reliably at scale?", processing transactions, managing state, enforcing business rules and serving millions of concurrent requests.
 
 Organizations that understand this distinction and use each language where it's strongest end up with systems that are both smart and reliable. Trying to force either language into the other's natural domain usually leads to frustration.
 
@@ -359,7 +359,7 @@ Java's six-month release cycle means new features arrive steadily. The language 
 
 Interestingly, Python and Java are converging in some ways. Python is getting more type safety. Java is getting more expressiveness and less boilerplate. Both are improving their performance profiles. Both are investing in better developer experiences.
 
-But their core identities remain distinct. Python will always prioritize developer happiness and accessibility. Java will always prioritize reliability and performance. And that's exactly how it should be. The software industry is big enough -- and the problems diverse enough -- to need both approaches.
+But their core identities remain distinct. Python will always prioritize developer happiness and accessibility. Java will always prioritize reliability and performance. And that's exactly how it should be. The software industry is big enough, and the problems diverse enough, to need both approaches.
 
 ---
 
@@ -369,9 +369,9 @@ On this 35th birthday, here's what Python's journey teaches us.
 
 **Design for humans first.** Guido's decision to optimize for readability over performance seemed counterintuitive in 1991. Three and a half decades later, it's the reason Python is the most popular language in the world. When you make something easy to learn and pleasant to use, people show up. And they stay.
 
-**Ecosystems compound.** Python's greatest asset isn't any single feature -- it's the millions of developers and hundreds of thousands of packages that form its ecosystem. This network effect is nearly impossible to replicate and it's what makes Python's position so durable.
+**Ecosystems compound.** Python's greatest asset isn't any single feature, it's the millions of developers and hundreds of thousands of packages that form its ecosystem. This network effect is nearly impossible to replicate and it's what makes Python's position so durable.
 
-**Adaptability beats specialization.** Python didn't try to be the best at any one thing. It tried to be good enough at everything while remaining true to its core values. That strategy worked spectacularly. Each new technology wave -- web, data science, cloud, AI -- found Python ready and willing to adapt.
+**Adaptability beats specialization.** Python didn't try to be the best at any one thing. It tried to be good enough at everything while remaining true to its core values. That strategy worked spectacularly. Each new technology wave, web, data science, cloud, AI, found Python ready and willing to adapt.
 
 **There's no one-size-fits-all language.** Python and Java have coexisted for three decades because they solve different problems differently. The most effective engineering organizations don't pick sides. They use the right tool for the right job.
 

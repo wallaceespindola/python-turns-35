@@ -1,6 +1,6 @@
 # Python at 35: Technical Evolution, Production Strengths and the Road Ahead
 
-![Python Turns 35](./images/featured-python-35.png)
+![Python Turns 35](../images/featured-python-35.png)
 
 **DZone Zones:** Python, Architecture, Web Development
 **Tags:** python, java, programming-languages, software-architecture
@@ -11,7 +11,7 @@
 
 On February 20, 2026, Python turns 35 years old. Created by Guido van Rossum in 1991, the language has crossed boundaries that few technologies ever manage: from academic scripting tool to the dominant force behind modern artificial intelligence, cloud automation, web development and scientific computing.
 
-That longevity is not accidental. Python survived four distinct paradigm shifts in computing --- desktop to internet, internet to cloud, cloud to mobile and mobile to AI --- by consistently optimizing for one thing above all else: developer productivity. While other languages competed on raw performance or enterprise safety, Python bet on readability, simplicity and a remarkably low barrier to entry. That bet paid off in ways that would have been difficult to predict in 1991.
+That longevity is not accidental. Python survived four distinct paradigm shifts in computing,- desktop to internet, internet to cloud, cloud to mobile and mobile to AI,- by consistently optimizing for one thing above all else: developer productivity. While other languages competed on raw performance or enterprise safety, Python bet on readability, simplicity and a remarkably low barrier to entry. That bet paid off in ways that would have been difficult to predict in 1991.
 
 But longevity alone doesn't tell the whole story. Python's position in 2026 comes with real technical trade-offs. Performance limitations, packaging fragmentation and concurrency constraints are well-documented challenges that the community is actively addressing. Understanding where Python excels and where it still needs improvement is essential for any engineer making technology decisions today.
 
@@ -23,7 +23,7 @@ This article traces Python's technical evolution through four phases, examines i
 
 Python's 35-year journey can be understood through four distinct phases, each representing a fundamental shift in what the language was used for and who was using it.
 
-![Python Evolution](./images/python-phases-timeline.png)
+![Python Evolution](../images/python-phases-timeline.png)
 
 ```mermaid
 timeline
@@ -50,7 +50,7 @@ timeline
 
 Python emerged from a specific frustration. Guido van Rossum, working at Centrum Wiskunde & Informatica in the Netherlands, wanted a language that combined the shell scripting convenience of ABC with the system access capabilities of C. The result was a language built on several foundational design choices that still define Python today.
 
-**Dynamic typing** made Python approachable. Variables didn't require type declarations, which eliminated an entire category of boilerplate that dominated C and early Java code. **Indentation-based syntax** enforced readability as a structural requirement rather than a style preference. The **"batteries included" standard library** meant that common tasks --- file I/O, string manipulation, networking --- worked out of the box without external dependencies.
+**Dynamic typing** made Python approachable. Variables didn't require type declarations, which eliminated an entire category of boilerplate that dominated C and early Java code. **Indentation-based syntax** enforced readability as a structural requirement rather than a style preference. The **"batteries included" standard library** meant that common tasks,- file I/O, string manipulation, networking,- worked out of the box without external dependencies.
 
 During this phase, Python was primarily a teaching language and a scripting tool for Unix system administrators. It was not yet considered a production-grade technology by most enterprise teams. Its identity was clear: **a better scripting language**.
 
@@ -62,7 +62,7 @@ Django, released in 2005, gave Python a full-featured web framework that could c
 
 This era also saw Python become deeply embedded in the Linux ecosystem. Package managers, system utilities and configuration management tools (Ansible, SaltStack) were increasingly written in Python, cementing its role in infrastructure operations.
 
-The Python 2 to Python 3 transition, beginning with Python 3.0 in 2008, was one of the most difficult community migrations in programming language history. The decision to break backward compatibility --- particularly around Unicode string handling --- created a schism that took nearly a decade to fully resolve. Python 2 reached end of life in January 2020.
+The Python 2 to Python 3 transition, beginning with Python 3.0 in 2008, was one of the most difficult community migrations in programming language history. The decision to break backward compatibility,- particularly around Unicode string handling,- created a schism that took nearly a decade to fully resolve. Python 2 reached end of life in January 2020.
 
 During this phase, Python's identity shifted: **a web productivity language**.
 
@@ -72,7 +72,7 @@ The third phase is where Python's trajectory diverged dramatically from nearly e
 
 **NumPy** provided efficient numerical arrays with C-level performance. **Pandas** built tabular data manipulation on top of NumPy, giving data analysts a tool that rivaled R for statistical work. **SciPy** added scientific computing algorithms. **Jupyter Notebooks** created an interactive computing environment that became the standard interface for data exploration across industry and academia.
 
-Then came the deep learning frameworks. **TensorFlow**, open-sourced by Google in 2015, chose Python as its primary interface language. **PyTorch**, released by Meta's AI Research lab, followed the same path. This was not coincidental --- Python's dynamic nature made it ideal for the experimental, iterative workflow that machine learning research demands.
+Then came the deep learning frameworks. **TensorFlow**, open-sourced by Google in 2015, chose Python as its primary interface language. **PyTorch**, released by Meta's AI Research lab, followed the same path. This was not coincidental,- Python's dynamic nature made it ideal for the experimental, iterative workflow that machine learning research demands.
 
 The result was a self-reinforcing cycle: researchers published in Python, students learned in Python, companies hired Python developers for data teams and framework authors continued building for Python.
 
@@ -86,7 +86,7 @@ The current phase extends Python's reach into areas that were historically domin
 
 Cloud automation became another growth area. AWS Lambda, Google Cloud Functions and Azure Functions all offer first-class Python support. Infrastructure-as-code tools like Pulumi provide Python SDKs alongside their TypeScript and Go options. DevOps pipelines increasingly use Python for orchestration logic.
 
-Perhaps most significantly, the current AI wave --- large language models, retrieval-augmented generation, agent frameworks --- runs almost entirely on Python infrastructure. Libraries like LangChain, LlamaIndex and Hugging Face Transformers are Python-first, reinforcing the language's position at the center of AI development.
+Perhaps most significantly, the current AI wave,- large language models, retrieval-augmented generation, agent frameworks,- runs almost entirely on Python infrastructure. Libraries like LangChain, LlamaIndex and Hugging Face Transformers are Python-first, reinforcing the language's position at the center of AI development.
 
 Python's current identity: **the universal integration language**.
 
@@ -102,7 +102,7 @@ Python consistently enables faster development cycles than statically typed alte
 
 ### AI and Machine Learning Dominance
 
-Python's position in AI is not just strong --- it is effectively unchallenged. The entire modern ML stack, from data preprocessing to model training to inference serving, is built around Python interfaces. Even when the underlying computation happens in C++ or CUDA, the orchestration layer is Python. This isn't changing anytime soon.
+Python's position in AI is not just strong,- it is effectively unchallenged. The entire modern ML stack, from data preprocessing to model training to inference serving, is built around Python interfaces. Even when the underlying computation happens in C++ or CUDA, the orchestration layer is Python. This isn't changing anytime soon.
 
 ### Massive Ecosystem
 
@@ -114,7 +114,7 @@ Few languages can credibly claim relevance across web backends, data science, sy
 
 ### Prototyping Speed
 
-Python's interactive nature --- particularly through Jupyter Notebooks and the REPL --- makes it exceptionally effective for rapid prototyping and exploratory work. Ideas can be tested and validated before committing to production implementations, whether those final implementations stay in Python or move to a compiled language.
+Python's interactive nature,- particularly through Jupyter Notebooks and the REPL,- makes it exceptionally effective for rapid prototyping and exploratory work. Ideas can be tested and validated before committing to production implementations, whether those final implementations stay in Python or move to a compiled language.
 
 ### Orchestration Capabilities
 
@@ -156,17 +156,17 @@ Runtime errors that would be caught at compile time in Java or Go remain a reali
 
 Python at 35 and Java at 30 represent two fundamentally different philosophies of software engineering that, in modern systems, are increasingly complementary rather than competitive.
 
-![Python vs Java](./images/python-vs-java-comparison.png)
+![Python vs Java](../images/python-vs-java-comparison.png)
 
 ```mermaid
 graph LR
     subgraph "Modern Architecture"
         direction TB
-        A[Client Applications] --> B[API Gateway]
-        B --> C[Java Services<br/>Transactions, Core Business Logic<br/>High-throughput Processing]
-        B --> D[Python Services<br/>AI/ML Inference, Data Pipelines<br/>Automation, Orchestration]
-        C --> E[(Databases)]
-        D --> E
+        A[Client Applications],> B[API Gateway]
+        B,> C[Java Services<br/>Transactions, Core Business Logic<br/>High-throughput Processing]
+        B,> D[Python Services<br/>AI/ML Inference, Data Pipelines<br/>Automation, Orchestration]
+        C,> E[(Databases)]
+        D,> E
         C <--> D
     end
 
@@ -195,7 +195,7 @@ Python leads in intelligence and experimentation. Machine learning pipelines, da
 
 ### Architectural Reality
 
-The most important insight is that modern systems don't choose between Python and Java --- they combine both. Java handles the transactional backbone: payment processing, order management, user authentication at scale. Python handles the intelligence layer: recommendation engines, fraud detection models, automated data pipelines, AI-powered features.
+The most important insight is that modern systems don't choose between Python and Java,- they combine both. Java handles the transactional backbone: payment processing, order management, user authentication at scale. Python handles the intelligence layer: recommendation engines, fraud detection models, automated data pipelines, AI-powered features.
 
 This isn't a theoretical pattern. It is the standard architecture at most technology companies operating at scale. The two languages occupy different optimization layers, which is precisely why both continue growing decades after their creation.
 
@@ -231,7 +231,7 @@ class User:
     email: str
 ```
 
-The modern version delivers the same functionality --- `__init__`, `__repr__`, `__eq__` and more --- in four lines. Type annotations serve as both documentation and tooling input for static analyzers.
+The modern version delivers the same functionality,- `__init__`, `__repr__`, `__eq__` and more,- in four lines. Type annotations serve as both documentation and tooling input for static analyzers.
 
 ### String Formatting Evolution
 
@@ -278,7 +278,7 @@ async def health():
     return {"status": "healthy", "language": "Python", "age": 35}
 ```
 
-The progression shows Python absorbing modern patterns --- async/await, type hints, automatic documentation --- without abandoning its core simplicity.
+The progression shows Python absorbing modern patterns,- async/await, type hints, automatic documentation,- without abandoning its core simplicity.
 
 ### Pattern Matching (Python 3.10+)
 
@@ -316,25 +316,25 @@ Several technical trajectories will shape Python's evolution over the coming yea
 
 ### Java's Parallel Evolution
 
-Java is not standing still. Project Loom (virtual threads), Project Panama (foreign function access), Project Valhalla (value types) and the accelerated six-month release cadence are modernizing the platform while preserving its stability guarantees. Java's strength --- and its strategic position --- lies in being the infrastructure backbone that Python intelligence layers can rely on.
+Java is not standing still. Project Loom (virtual threads), Project Panama (foreign function access), Project Valhalla (value types) and the accelerated six-month release cadence are modernizing the platform while preserving its stability guarantees. Java's strength,- and its strategic position,- lies in being the infrastructure backbone that Python intelligence layers can rely on.
 
 ### Convergence, Not Replacement
 
 The future of enterprise software architecture is not about Python replacing Java or Java absorbing Python's strengths. It is about both languages occupying complementary layers in increasingly sophisticated systems. Java provides the transactional reliability and throughput that business-critical operations demand. Python provides the flexibility and ecosystem depth that AI, analytics and automation require.
 
-Organizations that understand this complementary relationship --- and build architectures that leverage both --- will have a structural advantage over those still debating which single language to standardize on.
+Organizations that understand this complementary relationship,- and build architectures that leverage both,- will have a structural advantage over those still debating which single language to standardize on.
 
 ---
 
 ## Conclusion
 
-Thirty-five years is an extraordinary lifespan for a programming language. Most languages peak within a decade and fade into niche usage within two. Python has not only survived --- it has accelerated, finding new relevance with each paradigm shift in computing.
+Thirty-five years is an extraordinary lifespan for a programming language. Most languages peak within a decade and fade into niche usage within two. Python has not only survived,- it has accelerated, finding new relevance with each paradigm shift in computing.
 
 That success rests on a consistent design philosophy: optimize for the human, not the machine. Make code readable. Keep the barrier to entry low. Provide a rich standard library. Welcome newcomers. These principles, established by Guido van Rossum in 1991, continue to guide the language's evolution in 2026.
 
 But Python's future is not guaranteed by its past. The community must continue addressing performance limitations, packaging complexity and enterprise governance challenges. The no-GIL initiative, JIT compilation work, uv packaging tool and gradual typing adoption are all steps in the right direction.
 
-What is clear is that Python at 35 occupies a position in the software industry that no other language can easily replicate. It is the bridge between domains --- connecting data scientists with web developers, researchers with production engineers, AI models with business applications. That bridging capability, more than any single technical feature, is what makes Python enduring.
+What is clear is that Python at 35 occupies a position in the software industry that no other language can easily replicate. It is the bridge between domains,- connecting data scientists with web developers, researchers with production engineers, AI models with business applications. That bridging capability, more than any single technical feature, is what makes Python enduring.
 
 Happy 35th birthday, Python. The road ahead looks as interesting as the road behind.
 

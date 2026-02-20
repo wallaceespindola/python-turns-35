@@ -6,7 +6,9 @@ cover_image: ./images/featured-python-35.png
 published: true
 ---
 
-![Python Turns 35](./images/featured-python-35.png)
+# Python Just Turned 35, Here's What Kept It Alive All These Years
+
+![python-35.png](../images/python-35.png)
 
 Today is February 20, 2026. Exactly 35 years ago, Guido van Rossum released the first public version of Python, a language he'd been hacking on during the Christmas holidays as a side project. Let that sink in for a second. A side project from 1991 is now arguably the most popular programming language on the planet.
 

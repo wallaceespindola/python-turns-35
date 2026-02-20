@@ -2,8 +2,7 @@
 
 **Preview:** *The language that chose humans over machines*
 
-![Python Turns 35](./images/featured-python-35.png)
-
+![python-turns-35.png](../images/python-turns-35.png)
 ---
 
 Today is February 20, 2026. Thirty-five years ago, on this exact date, Guido van Rossum released version 0.9.0 of a programming language he'd been tinkering with over a Christmas holiday. He named it after Monty Python's Flying Circus, not after the snake, because he wanted programming to feel playful. That small decision tells you everything you need to know about why Python is still here and why so many of its contemporaries are not.
@@ -38,7 +37,7 @@ Then came the third act, and this is where the story gets wild. Around 2010, som
 
 The reasons were partly technical and partly social. NumPy and SciPy had been maturing since the early 2000s, giving Python serious numerical computing capabilities. Pandas arrived and made tabular data manipulation feel almost conversational. Then Jupyter Notebooks created an interactive environment where scientists could mix code, visualization and narrative in a single document. And when the deep learning wave hit, TensorFlow in 2015, PyTorch in 2016, both frameworks chose Python as their primary interface.
 
-![Python's Evolution: Four Phases](./images/python-phases-timeline.png)
+![Python's Evolution: Four Phases](../images/python-phases-timeline.png)
 
 This wasn't inevitable. R was the dominant language in statistics. MATLAB owned engineering. Julia was being designed specifically for scientific computing with performance as a first-class concern. Any of them could have become the language of AI. But Python won because it had something none of them could match: a massive existing ecosystem and a gentle learning curve. A biologist who'd learned Python to automate file processing could start training neural networks without switching languages. A web developer who'd built a Django app could start exploring data pipelines without learning a new syntax. Python was already *everywhere*, and that ubiquity compounded.
 
@@ -82,7 +81,7 @@ None of these problems are fatal. But they're real, and pretending otherwise doe
 
 Here's where I want to make a connection that I think is underappreciated. Java turned 30 last year. Python turns 35 today. Both languages have survived multiple paradigm shifts. Both have enormous ecosystems. Both are regularly declared "dying" by people who confuse novelty with relevance. And yet they're both thriving.
 
-![Python at 35 vs Java at 30](./images/python-vs-java-comparison.png)
+![Python at 35 vs Java at 30](../images/python-vs-java-comparison.png)
 
 But they thrive for opposite reasons. Java optimized for the machine and the institution. Strong typing, explicit architecture, compile-time safety, enterprise-grade concurrency with virtual threads. Java is the language you choose when you need a system that will run reliably for ten years with a rotating team of fifty developers. Python optimized for the person and the problem. Dynamic typing, rapid prototyping, minimal boilerplate, instant feedback loops. Python is the language you choose when you need to explore an idea, ship a prototype or automate a workflow before lunch.
 
