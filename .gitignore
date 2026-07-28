@@ -291,3 +291,6 @@ mcp.secrets.json
 
 # Keep example MCP files
 !.mcp.json.example
+
+# macOS
+.DS_Store
